@@ -2,7 +2,7 @@
     font-family: serif;
     font-size: 2.25rem;
     font-weight: bold;
-    color: #000;
+    color: black;
     border: 2px solid black;
     padding: 24px;
 }
@@ -15,7 +15,7 @@
 
 .infoCardCallActionContainer :global(.vtex-button):hover {
     color: gray;
-    background-color: #fff;
+    background-color: white;
     border: transparent;
 }
 
@@ -24,7 +24,7 @@
   }
 
 .infoCardContainer--metal {
-    background-color: #fff
+    background-color: #e1e1e1
 }
 
 .infoCardContainer {
