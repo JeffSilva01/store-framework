@@ -40,6 +40,11 @@
       "shipping-simulator"
     ]
   },
+  "sku-selector": {
+    "props": {
+      "hideImpossibleCombinations": false
+    }
+  },
   "product-price": {
     "props": {
       "showSavings": true,
