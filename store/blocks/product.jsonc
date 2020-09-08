@@ -33,22 +33,17 @@
       "preventVerticalStretch": true
     }
   },
+  "product-price":{
+    "props" :{
+      "showSavings": true,
+      "showListPrice": false
+    }
+  },
   "flex-layout.row#qty-sku": {
-    "children": [
+    "children": [ 
       "sku-selector",
       "product-quantity",
       "shipping-simulator"
     ]
-  },
-  "sku-selector": {
-    "props": {
-      "hideImpossibleCombinations": false
-    }
-  },
-  "product-price": {
-    "props": {
-      "showSavings": true,
-      "showListPrice": true
-    }
   }
 }
